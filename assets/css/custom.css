@@ -1,0 +1,649 @@
+/*============================================
+                GOOGLE FONTS
+============================================*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Rubik');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+
+/*============================================
+                RESET CSS
+============================================*/
+html, body {
+    font-family: 'Anton', 'Rubik','Open Sans Condensed' sans-serif;
+    background-color: black;
+}
+
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 { font-size: 50px;}
+h2 { font-size: 40px }
+h3 { font-size: 35px }
+h4 { font-size: 25px }
+h5 { font-size: 18px }
+h6 { font-size: 14px }
+
+/*============================================
+                SLIDER CSS
+============================================*/
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: yellow;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: #968d8d;
+    border: 1px solid #968d8d;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 38%;
+    left: -26%;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+}
+
+.carousel-caption h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.carousel-caption p {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 25px;
+    color: #fffc15;
+}
+
+/*============================================
+                NAVIGATION CSS
+============================================*/
+#social-media {
+    background-color: #222427;
+    padding: 10px 0px;
+}
+
+.social-media .navbar-form .form-group a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media .navbar-form .form-group a span i:last-child {
+    color: #191c23;
+}
+
+.social-media .navbar-form .form-group a:hover {
+    color: #bf2e30;
+    text-decoration: none;
+    transition: all 0.3s ;
+}
+
+.social-media .navbar-form .form-group a span i:last-child:hover {
+    color: white;
+}
+
+.social-media .navbar-form .form-group .form-control {
+    background-color: #222427;
+    color: white;
+    border: none;
+    border-right: 1px solid #808080;
+    border-radius: 0px;
+    height: 37px;
+    margin-right: 11px;
+}
+
+.navbar {
+    background-color: #222427;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-default {
+    border: none;
+    border-top:  3px solid #584f4f;
+}
+
+.navbar-defailt .navbar-nav li a {
+    padding: 10px 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    height: 100%;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -3px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-top: 4px solid #fffc15;
+    background-color: #17171d;
+    color: #fffc15;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    border-top: 4px solid #fffc15;
+    background-color: #17171d;
+    color: #fffc15;
+    font-weight: bold;
+}
+
+.navbar-header img {
+    width: 250px;
+    position: relative;
+    bottom: 115px;
+}
+
+/*============================================
+                BLOG CSS
+============================================*/
+#blog-head .container .row {
+    background-color: #ffffff;
+}
+
+#blog-head .blog-item .blog-header {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+#blog-head .blog-item span {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+#blog-head .blog-item img {
+    width: 500px;
+    height: 330px;
+    float: left;
+}
+
+#blog-head .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 90px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fffc15;
+    border-radius: 0px;
+    color: black;
+}
+
+#blog-content .container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.blog-item {
+    display: block;
+    text-overflow: clip;
+    line-height: 1.42857143;
+    background-color: #fff;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.blog-item>img {
+    display: block;
+    max-width: 100%;
+    height: 250px;
+}
+
+.blog-item .blog-caption {
+    background-color: #424040;
+    padding: 10px 25px 10px 25px; 
+}
+
+.blog-item .blog-caption span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fffc15;
+}
+
+.blog-item .blog-caption p {
+    font-family:'Rubik', sans-serif;
+    color: #fff;
+}
+
+#blog-content .blog-item .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fffc15;
+    border-radius: 0px;
+    color: black;
+}
+
+/*============================================
+                FOOTER CSS
+============================================*/
+#footer {
+    background-color: #333333;
+    margin-top: 75px;
+}
+
+.footer .row {
+    padding: 40px 0px;
+    text-align: left;
+}
+
+.footer .nav-footer li {
+    list-style: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.footer .nav-footer li:hover a {
+    color: #fffc15;
+}
+
+.footer .nav-footer li a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer .copyright p {
+    text-align: right;
+    color: #fff;
+}
+
+/*============================================
+            RESPONSIVE CSS
+============================================*/
+@media screen and ( max-width:1024px ) {
+    /* Slider CSS */
+    .carousel-caption {
+        position: absolute;
+        bottom: 30%;
+        left: -26%;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    
+    .carousel-caption h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 65px;
+    }
+
+    .carousel-caption p {
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 25px;
+        color: #fffc15;
+    }
+    
+    /* Blog CSS */
+    #blog-head .blog-img .img-responsive {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    /* Slider CSS */
+    .carousel-caption {
+        position: absolute;
+        bottom: 23%;
+        left: -30%;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    
+    .carousel-caption h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 55px;
+    }
+
+    .carousel-caption p {
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 25px;
+        color: #fffc15;
+    }
+    
+    /* Navigation Bar */
+    .social-media .navbar-form .form-group .form-control {
+        background-color: #222427;
+        color: white;
+        border: none;
+        border-right: 1px solid #808080;
+        border-radius: 0px;
+        width: 100px;
+        height: 37px;
+        margin-right: 11px;
+    }
+    
+    .navbar {
+        background-color: #222427;
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+
+    .navbar-default {
+        border: none;
+        border-top:  3px solid #584f4f;
+    }
+
+    .navbar-defailt .navbar-nav li a {
+        padding: 10px 5px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        height: 100%;
+        font-weight: bold;
+        color: #fff;
+        margin-top: -3px;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        border-top: 4px solid #fffc15;
+        background-color: #17171d;
+        color: #fffc15;
+        font-weight: bold;
+    }
+
+    .navbar-default .navbar-nav>li>a:focus {
+        border-top: 4px solid #fffc15;
+        background-color: #17171d;
+        color: #fffc15;
+        font-weight: bold;
+    }
+
+    .navbar-header img {
+        width: 200px;
+        position: relative;
+        bottom: 100px;
+        left: -20px;
+    }
+
+
+    
+    /* Blog CSS */
+    #blog-head .blog-img .img-responsive {
+        width: 300px;
+        height: 310px;
+        margin: 30px -25px;
+    }
+    
+    /* Blog Content CSS */
+    #blog-content .col-sm-12 .blog-item:last-child {
+        margin-top: 30px;
+    }
+    
+    #blog-content .col-sm-12 img {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #blog-content .col-sm-12 .blog-item .btn {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #fffc15;
+        border-radius: 0px;
+        color: black;
+    }
+    
+    /* Footer CSS*/
+    .footer .row {
+        padding: 20px 0px;
+    }
+    .footer .nav-footer, .footer .copyright p {
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+@media screen and ( max-width: 425px ) {
+    /* Slider CSS */
+    .carousel-caption {
+        position: absolute;
+        bottom: 23%;
+        left: -27%;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+
+    .carousel-caption h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 27px;
+    }
+
+    .carousel-caption p {
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 12px;
+        color: #fffc15;
+    }
+    
+    /* Navigation Bar */
+    .navbar-default {
+        border: none;
+        text-align: center;
+    }
+    
+    .navbar-header img {
+        position: relative;
+        width: 150px;
+        bottom: 45px;
+        left: -25px;
+        z-index: 11;
+    }
+    
+    .navbar-default .collapse .container-fluid .form-group .form-control {
+        display: inline-block;
+        width: 155px;
+        height: 34px;
+        padding: 6px 12px;
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #fff;
+        background-color: #222427;
+        background-image: none;
+        border: none;
+        border-right: 1px solid #545050;
+        border-radius: 0px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(222, 1, 1, 0.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    
+    .navbar-default .collapse .nav .container-fluid .form-group a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-default .collapse .nav .container-fluid .form-group a span i:last-child {
+        color: #191c23;
+    }
+
+    .navbar-default .collapse .nav .container-fluid .form-group a:hover {
+        color: #bf2e30;
+        text-decoration: none;
+        transition: all 0.3s ;
+    }
+
+    .navbar-default .collapse .nav .container-fluid .form-group a span i:last-child:hover {
+        color: white;
+    }
+    
+    /* Blog CSS*/
+    #blog-head .blog-item .blog-header {
+        margin: 50px 20px;
+    }
+    
+    #blog-head .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        background-color: #fffc15;
+        border-radius: 0px;
+        color: black;
+    }
+    
+    #blog-head .blog-img .img-responsive {
+        width: auto;
+        margin: 0px;
+    }
+    
+    #blog-content .col-xs-12 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    #blog-content .container .row .blog-item .btn {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+    }
+    
+    #blog-content .col-xs-12 .blog-item {
+        margin-top: 30px;
+    }
+}
+
+@media screen and ( max-width : 375px ) {
+    /* Slider CSS */
+    .carousel-caption {
+        position: absolute;
+        bottom: 13%;
+        left: -32%;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    
+    /* Navigation Bar */
+    .navbar-default .collapse .container-fluid .form-group .form-control {
+        width: 100px;
+    }
+}
+
+@media screen and ( width : 320px ) {
+    /* Slider CSS */
+    .carousel-caption {
+        position: absolute;
+        bottom: 13%;
+        left: -30%;
+    }
+    
+    .carousel-caption h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 10px;
+        color: #fffc15;
+    }
+    
+    /* Navigation Bar */
+    .navbar-header img {
+        position: relative;
+        width: 120px;
+        bottom: 35px;
+        left: -25px;
+        z-index: 11;
+    }
+    
+    /* Blog CSS */
+    #blog-head .blog-img .img-responsive {
+        width: 250px;
+        height: 250px;
+    }
+}
